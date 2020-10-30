@@ -63,8 +63,8 @@
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiYWlzaGFheml6IiwiYSI6ImNqZmh2em93aTAzdGkyeXBpeno5Nm9rYmMifQ.1RCsRqvQcAkagctGeW4e0A';
 
-var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
-    attribution: '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+var mapboxTiles = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
+    attribution: ''Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors''
 });
 
 
